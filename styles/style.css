@@ -36,6 +36,8 @@
 }
 .header__links_active {
   text-decoration: underline;
+  text-underline-offset: 3px;
+
 }
 .header__logo-image {
   height: 105px;
@@ -58,6 +60,8 @@
 }
 .address__link {
   text-decoration: underline;
+  text-underline-offset: 3px;
+  
 }
 .cover {
   position: relative;
@@ -65,6 +69,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-height:757px;
+  
 }
 .overlay {
   position: absolute;
@@ -106,6 +112,7 @@
 .cover__description {
   display: flex;
   justify-content: end;
+  
   padding-right: 50px;
   padding-bottom: 62px;
   column-gap: 78px;
@@ -113,6 +120,7 @@
 .cover__description-text {
   position: relative;
   z-index: 2;
+  padding-top: 12px;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -121,6 +129,7 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 20px;
+  text-align: center;
 }
 .bet-button {
   position: relative;
@@ -135,6 +144,7 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  text-align: center;
 }
 .lots {
   width: 100%;
@@ -218,10 +228,12 @@
   font-weight: 400;
   line-height: normal;
   padding: 55px 0 0 40px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .about {
-  padding: 180px 50px;
+  padding: 0 50px 180px 50px;
   display: grid;
   grid-template-columns: 430px auto;
   justify-items: center;
@@ -264,11 +276,14 @@
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 50px 90px 50px;
-  gap: 355px;
+  grid-template-columns: 240px 149px 240px;
+  padding: 0 50px 90px 50px;
+  gap:355px;
+  
 }
 .footer__menu {
+  display:flex;
+  flex-direction: column;
   color: #000;
   text-align: center;
   font-family: Raleway;
@@ -287,8 +302,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 240px;
   list-style: none;
+}
+.footer__social-link{
+  text-decoration:underline;
+  text-underline-offset: 3px;
 }
 
 .footer__social-icon {
