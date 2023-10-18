@@ -104,7 +104,7 @@
 .letter-spacing-extended {
   letter-spacing: 64px;
 }
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0;
 }
 .aligned-text-center {
@@ -313,7 +313,7 @@
   justify-content: space-between;
   list-style: none;
 }
-.footer__social-link{
+.footer__social-link {
   text-decoration:underline;
   text-underline-offset: 3px;
 }
