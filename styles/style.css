@@ -300,10 +300,14 @@
   margin-bottom: 25px;
 }
 
+.about__text:last-child {
+  margin-bottom: 0;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 240px 149px 240px;
-  padding: 0 50px 90px 50px;
+  padding: 20px 50px 90px 50px;
   gap: 355px;
 }
 
